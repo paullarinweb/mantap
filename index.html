@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Mantap - Kembang Flower Mantap" />
+    <meta name="author" content="Paul Kharitonov" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="img/icons/favicon.ico" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="img/icons/favicon.ico"
+      type="image/x-icon"
+    />
+    <title>Mantap - Kembang Flower Mantap</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__wrapper _container">
+        <div class="header__left">
+          <a href="#">
+            <picture
+              ><source srcset="img/logo_header.webp" type="image/webp" />
+              <img src="img/logo_header.png" alt="" class="header__logo"
+            /></picture>
+          </a>
+        </div>
+        <div class="header__right">
+          <div class="header__right__svg">
+            <a href="#">
+              <svg
+                class="svg__search"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.16667 15.8333C12.8486 15.8333 15.8333 12.8486 15.8333 9.16667C15.8333 5.48477 12.8486 2.5 9.16667 2.5C5.48477 2.5 2.5 5.48477 2.5 9.16667C2.5 12.8486 5.48477 15.8333 9.16667 15.8333Z"
+                  stroke="#333333"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M17.5 17.5L13.875 13.875"
+                  stroke="#333333"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+            <a href="#">
+              <svg
+                class="svg__shopping-card"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0)">
+                  <path
+                    d="M7.50002 18.3333C7.96026 18.3333 8.33335 17.9602 8.33335 17.5C8.33335 17.0397 7.96026 16.6666 7.50002 16.6666C7.03978 16.6666 6.66669 17.0397 6.66669 17.5C6.66669 17.9602 7.03978 18.3333 7.50002 18.3333Z"
+                    stroke="black"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M16.6666 18.3333C17.1269 18.3333 17.5 17.9602 17.5 17.5C17.5 17.0397 17.1269 16.6666 16.6666 16.6666C16.2064 16.6666 15.8333 17.0397 15.8333 17.5C15.8333 17.9602 16.2064 18.3333 16.6666 18.3333Z"
+                    stroke="black"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M0.833313 0.833374H4.16665L6.39998 11.9917C6.47618 12.3754 6.6849 12.72 6.9896 12.9653C7.2943 13.2106 7.67556 13.3409 8.06665 13.3334H16.1666C16.5577 13.3409 16.939 13.2106 17.2437 12.9653C17.5484 12.72 17.7571 12.3754 17.8333 11.9917L19.1666 5.00004H4.99998"
+                    stroke="black"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0">
+                    <rect width="20" height="20" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+          </div>
+          <div class="header__buttons">
+            <a href="/index.html/acc" class="header__btn btn__outline">
+              <span>Sign Up</span>
+            </a>
+            <a href="/index.html/acc" class="header__btn btn__full">
+              <span>Sign In</span>
+            </a>
+          </div>
+        </div>
+        <div class="header__burger">
+          <span></span>
+        </div>
+        <nav class="header__menu">
+          <ul class="header__list">
+            <li><a href="#" class="header__link">Sign Up</a></li>
+            <li><a href="#" class="header__link">Sign In</a></li>
+            <li>
+              <a href="#">
+                <svg
+                  class="svg__search"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9.16667 15.8333C12.8486 15.8333 15.8333 12.8486 15.8333 9.16667C15.8333 5.48477 12.8486 2.5 9.16667 2.5C5.48477 2.5 2.5 5.48477 2.5 9.16667C2.5 12.8486 5.48477 15.8333 9.16667 15.8333Z"
+                    stroke="#333333"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M17.5 17.5L13.875 13.875"
+                    stroke="#333333"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="header__link">
+                <a href="#">
+                  <svg
+                    class="svg__shopping-card"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M7.50002 18.3333C7.96026 18.3333 8.33335 17.9602 8.33335 17.5C8.33335 17.0397 7.96026 16.6666 7.50002 16.6666C7.03978 16.6666 6.66669 17.0397 6.66669 17.5C6.66669 17.9602 7.03978 18.3333 7.50002 18.3333Z"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M16.6666 18.3333C17.1269 18.3333 17.5 17.9602 17.5 17.5C17.5 17.0397 17.1269 16.6666 16.6666 16.6666C16.2064 16.6666 15.8333 17.0397 15.8333 17.5C15.8333 17.9602 16.2064 18.3333 16.6666 18.3333Z"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M0.833313 0.833374H4.16665L6.39998 11.9917C6.47618 12.3754 6.6849 12.72 6.9896 12.9653C7.2943 13.2106 7.67556 13.3409 8.06665 13.3334H16.1666C16.5577 13.3409 16.939 13.2106 17.2437 12.9653C17.5484 12.72 17.7571 12.3754 17.8333 11.9917L19.1666 5.00004H4.99998"
+                        stroke="black"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="20" height="20" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </a>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="intro">
+      <div class="intro__wrapper">
+        <div class="intro__left img__animate"></div>
+        <div class="intro__right">
+          <div class="intro__right__info">
+            <h1>Kembang Flower Mantap</h1>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s,
+            </p>
+          </div>
+          <div class="intro__right__btns">
+            <button class="intro__right__btn btn__outline">
+              <div class="btn__outline__div">
+                <p>
+                  <span class="icon-arrow__left"></span><span>Previous</span>
+                </p>
+                <p>Kaktus Plant</p>
+              </div>
+            </button>
+            <button class="intro__right__btn btn__full">
+              <div class="wrapper__btn">
+                <p><span>Next</span><span class="icon-arrow__right"></span></p>
+                <p>Rahasia Plant</p>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cards _container">
+      <div class="cards__wrapper">
+        <div class="cards__item">
+          <div class="cards__item__wrapper">
+            <span class="icon-delivery"></span>
+            <h2>Fast Delivery</h2>
+          </div>
+          <div>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard
+            </p>
+          </div>
+        </div>
+        <div class="cards__item">
+          <div class="cards__item__wrapper">
+            <span class="icon-service"></span>
+            <h2>Great Customer Service</h2>
+          </div>
+          <div>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard
+            </p>
+          </div>
+        </div>
+        <div class="cards__item">
+          <div class="cards__item__wrapper">
+            <span class="icon-plants"></span>
+            <h2>Original Plants</h2>
+          </div>
+          <div>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard
+            </p>
+          </div>
+        </div>
+        <div class="cards__item">
+          <div class="cards__item__wrapper">
+            <span class="icon-price"></span>
+            <h2>Affordable Price</h2>
+          </div>
+          <div>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="feature _container">
+      <div class="feature__wrapper">
+        <div class="feature__header">
+          <div class="feature__header__left">
+            <span>Featured Plants</span>
+          </div>
+          <div class="feature__header__right">
+            <select name="cheaper">
+              <option value="cheaper">Cheaper First</option>
+              <option value="expensive">Expensive First</option>
+              <option value="sales">Sales</option>
+            </select>
+          </div>
+        </div>
+        <div class="feature__main">
+          <div class="feature__main__wrapper">
+            <div class="feature__main__item">
+              <picture
+                ><source srcset="img/feat__1.webp" type="image/webp" />
+                <img loading="lazy" src="img/feat__1.png" alt=""
+              /></picture>
+              <p>Kaktus Plants</p>
+              <span>IDR 85.000</span>
+            </div>
+            <div class="feature__main__item">
+              <picture
+                ><source srcset="img/feat__2.webp" type="image/webp" />
+                <img loading="lazy" src="img/feat__2.png" alt=""
+              /></picture>
+              <p>Landak Plants</p>
+              <span>IDR 105.000</span>
+            </div>
+            <div class="feature__main__item">
+              <picture
+                ><source srcset="img/feat__3.webp" type="image/webp" />
+                <img loading="lazy" src="img/feat__3.png" alt=""
+              /></picture>
+              <p>Kecubung Plants</p>
+              <span>IDR 85.000</span>
+            </div>
+            <div class="feature__main__item">
+              <picture
+                ><source srcset="img/feat__4.webp" type="image/webp" />
+                <img loading="lazy" src="img/feat__4.png" alt=""
+              /></picture>
+              <p>Kecubung Plants</p>
+              <span>IDR 85.000</span>
+            </div>
+            <div class="feature__main__item">
+              <picture
+                ><source srcset="img/feat__5.webp" type="image/webp" />
+                <img loading="lazy" src="img/feat__5.png" alt=""
+              /></picture>
+              <p>Kecubung Plants</p>
+              <span>IDR 85.000</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="preference _container">
+      <div class="preference__wrapper">
+        <div class="preference__left">
+          <div class="preference__left__info">
+            <h3>Buy more plants, it helps you to be relaxed</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+              gravida gravida aliquam. Pellentesque et lobortis nisl. Sed et
+              mauris justo. Nulla eu enim non mauris maximus dignissim. Maecenas
+              vitae eros sapien. Quisque pellentesque tempus dignissim.
+            </p>
+          </div>
+          <div class="preference__left__img">
+            <picture
+              ><source srcset="img/pr__2.webp" type="image/webp" />
+              <img loading="lazy" src="img/pr__2.png" alt=""
+            /></picture>
+          </div>
+        </div>
+        <div class="preference__right">
+          <picture
+            ><source srcset="img/pr__1.webp" type="image/webp" />
+            <img loading="lazy" src="img/pr__1.png" alt=""
+          /></picture>
+        </div>
+      </div>
+    </div>
+    <div class="special _container">
+      <div class="special__wrapper">
+        <div class="special__left">
+          <h3>Get your favourites plant on our shop now</h3>
+          <div class="special__left__buttons">
+            <button class="btn__full">Visit Shop</button>
+          </div>
+        </div>
+        <div class="special__right">
+          <picture
+            ><source srcset="img/bg__block_1.webp" type="image/webp" />
+            <img loading="lazy" src="img/bg__block_1.png" alt=""
+          /></picture>
+        </div>
+      </div>
+    </div>
+    <footer class="footer _container">
+      <div class="footer__wrapper">
+        <div class="footer__left">
+          <h5 class="footer__left__logo">plantku</h5>
+          <address>
+            <p>Plantku House</p>
+            <span
+              >Jl. Laksda Adisucipto No.51, Demangan, Kec. Depok, Kota
+              Yogyakarta, Daerah Istimewa Yogyakarta 55282</span
+            >
+          </address>
+        </div>
+        <div class="footer__right">
+          <nav>
+            <span class="footer__span">Perusahaan</span>
+            <ul>
+              <li><a href="#">Tentang Kami</a></li>
+              <li><a href="#">Hubungi Kami</a></li>
+            </ul>
+          </nav>
+          <nav>
+            <span class="footer__span">Produk</span>
+            <ul>
+              <li><a href="#">Tanaman</a></li>
+              <li><a href="#">Tanaman Lain</a></li>
+            </ul>
+          </nav>
+          <nav>
+            <span class="footer__span">Berlangganan Email Kami</span>
+            <ul>
+              <li class="li__footer__form">
+                <form action="">
+                  <input type="text" placeholder="Masukan Alamat Email" />
+                </form>
+              </li>
+              <li class="btn__footer__form">
+                <button type="button" class="form__btn btn__full">
+                  Submit
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
